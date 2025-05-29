@@ -5,7 +5,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route": "goodbye",
+      "route": "hello",
       "methods": ["get"]
     },
     {
@@ -14,5 +14,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/goodbye/index.js"
+  "scriptFile": "../dist/hello/index.js"
 }
