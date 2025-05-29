@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Azure Functions",
+  "scripts": {
+    "start": "func start",
+    "build": "mkdir -p dist/hello && cp hello/*.js dist/hello/",
+    "test": "echo \"No tests yet...\" && exit 0"
+  },
+  "dependencies": {
+    "@azure/functions": "^3.x"
+  }
+}
