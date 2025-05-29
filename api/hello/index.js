@@ -1,4 +1,4 @@
-export default async function (context, req) {
+module.exports = async function (context, req) {
     context.log('HTTP trigger function processed a request.');
 
     const response = {
